@@ -5,7 +5,7 @@ from kivy.uix.textinput import TextInput
 
 class MainApp(App):
     def build(self):
-        self.icon = "calculatorsplash.png"
+        #self.icon = "calculatorsplash.png"
         self.operators = ["/", "*", "+", "-"]
         self.last_was_operator = None
         self.last_button = None
